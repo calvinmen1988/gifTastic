@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <title>gifTastic!</title>
+</head>
+
+<body>
+<!-- entire bootstrap grid -->  
+<div class="container">
+       
+    <!-- jumbotron -->   
+    <div class="jumbotron">
+        <h1 class="text-center"><strong>GifTastic!</strong></h1>
+        <h2 class="text-center" id="intructions">Press buttons to see gifs!</h2>
+    </div>
+
+    <!-- row with buttons -->
+    <div class="row" id="buttonPanel"> 
+    </div>
+
+    <!-- left panel with gifs -->
+    <div class="row">
+        <div class="col-lg-10" id="gifPanel"> 
+    </div>
+
+    <!-- right panel with user form -->
+    <div class="col-lg-2 formPanel">
+        <form id="topics-form">
+            <label for="topics-input" class="inputLabel">Add a topic!</label>
+            <input type="text" id="topics-input">
+
+            <!-- button for new animal-input -->
+            <input id="add-topics" type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/javascript/javascript.js"></script>
+
+</body>
+
+</html>
